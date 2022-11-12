@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Oct, 2022, 5:27:33 PM
+    Author     : Abhinandan Shinde
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("i7.jpg");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 380px;
+}
+h1{
+    margin-top: 200px;
+    color: white;
+    width: 400px;
+    height: 100px;
+    background-color: #4F2811;
+    padding-top:  50px;
+    box-shadow:0 0 10px #000;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+}
+

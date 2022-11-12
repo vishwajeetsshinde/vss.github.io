@@ -1,0 +1,282 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Oct, 2022, 9:30:06 AM
+    Author     : Abhinandan Shinde
+*/
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+	background-image:url("i4.jpg");
+	background-position:center;
+	background-size:100% 100%;
+        background-repeat: no-repeat;
+        height: 575px;
+}
+.maneu{
+	width:100%;
+	height:80px;
+	background-color:rgba(0,0,0,0.6);
+}
+.rightmaneu{
+	text-transform:uppercase;
+	margin-left:70px;
+	width:25%;
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	line-height:70px;
+	float:left;
+	font-family:'Open Sans',sans-serif;
+}
+.leftmaneu{
+	width:100%;
+	line-height:65px;
+	color:white;
+	font-weight:bold;
+	
+	font-size:15px;
+}
+.leftmaneu ul{
+	margin-left:40px;
+	padding-left:10px;
+	list-style:none;
+	display:inline-flex;
+}
+.leftmaneu ul li{
+	text-transform:uppercase;
+	padding:5px;
+	margin-left:65px;
+	font-family:'Open Sans',sans-serif;
+}
+.leftmaneu ul li a{
+	text-decoration:none;
+	color:white;
+}
+.active,.leftmaneu ul li :hover{
+	color:orange;
+}
+.f1{
+	background-image:url("i5.jpg");
+	background-position:center;
+	background-size:100% 100%;
+        height: 550px;
+	
+}
+.a1 h2{
+	font-family:'Open Sans',sans-serif;
+	color:white;
+	margin-left:150px;
+	margin-top:30px;
+}
+.a1 h3{
+	margin-left:150px;
+	font-family:'Open Sans',sans-serif;
+	color:white;
+	padding-top:10px;
+}
+.a1 pre{
+        margin-left: 28px;
+	padding-top:10px;
+	color:white;
+	font-size:15px;
+	font-family:'Open Sans',sans-serif;
+}
+#s1{
+	padding:20px;
+	margin-top:40px;
+	margin-left:100px;
+	width:130px;
+	height:100px;
+	background-color:white;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	box-shadow:0 0 10px #000;
+}
+#s2{
+	padding:20px;
+	margin-top:-100px;
+	margin-left:400px;
+	width:130px;
+	height:100px;
+	background-color:white;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	box-shadow:0 0 10px #000;
+}
+#s3{
+	padding:20px;
+	margin-top:-100px;
+	margin-left:650px;
+	width:130px;
+	height:100px;
+	background-color:white;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	box-shadow:0 0 10px #000;
+}
+#s4{
+	padding:20px;
+	margin-top:-100px;
+	margin-left:900px;
+	width:130px;
+	height:100px;
+	background-color:white;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	box-shadow:0 0 10px #000;
+}
+#s5{
+	padding:20px;
+	margin-top:60px;
+	margin-left:100px;
+	width:130px;
+	height:100px;
+	background-color:white;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	box-shadow:0 0 10px #000;
+}
+#s6{
+	padding:20px;
+	margin-top:-100px;
+	margin-left:400px;
+	width:130px;
+	height:100px;
+	background-color:white;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	box-shadow:0 0 10px #000;
+}
+#s7{
+	padding:20px;
+	margin-top:-100px;
+	margin-left:650px;
+	width:130px;
+	height:100px;
+	background-color:white;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	box-shadow:0 0 10px #000;
+}
+#s8{
+	padding:20px;
+	margin-top:-100px;
+	margin-left:900px;
+	width:130px;
+	height:100px;
+	background-color:white;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	box-shadow:0 0 10px #000;
+}
+.sub-manue
+{
+	display:none;
+}
+.leftmaneu ul li:hover .sub-manue{
+	display:block;
+	position:absolute;
+	background-color:black;
+	margin-top:10px;
+	margin-left:-10px;
+}
+.leftmaneu ul li:hover .sub-manue ul{
+	display:block;
+	
+	
+}
+.leftmaneu ul li:hover .sub-manue ul li{
+	margin-left:-10px;
+	margin-top:-30px;
+}
+.bgimage1{
+	background-image:url("i7.jpg");
+	background-position:center;
+	background-size:100% 100%;
+        height: 375px;
+}
+.s{
+	
+	margin-top:200px;
+	margin-left:100px;
+}
+#se1 {
+	padding:50px;
+	font-size:30px;
+	font-weight:bold;
+	color:white;
+	background-color:grey;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	box-shadow:0 0 10px #000;
+	font-family:'Open Sans',sans-serif;
+}
+#se2 {
+	margin-left:100px;
+	padding:50px;
+	color:white;
+	font-size:30px;
+	font-weight:bold;
+	background-color:grey;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	box-shadow:0 0 10px #000;
+	font-family:'Open Sans',sans-serif;
+	
+}
+.button {
+	margin-left:450px;
+	margin-top:150px;
+
+}
+input{
+	width:200px;
+	padding:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	background-color:red;
+	font-size:25px;
+	font-weight:bold;
+	font-family:'Open Sans',sans-serif;
+	text-transform:uppercase;
+	font-family:'Montserrat',sans-serif;
+        border-color: black;
+        
+}
+.button input{
+	
+	text-decoration:none;
+	color:white;
+}
+
+
+
